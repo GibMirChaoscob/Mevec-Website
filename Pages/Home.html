@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Left Menu</title>
+    <style>
+        /* Base page styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: white;
+        }
+
+        /* Menu container */
+        .menu {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #7b7c7e;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            display: none; /* Hidden by default */
+        }
+
+        /* Small rounded button for toggling */
+        .menu-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #4b4a4d;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition for transform */
+        }
+
+        /* Hover effect for the button */
+        .menu-button:hover {
+            background-color: #cc071e;
+            transform: scale(1.1); /* Slightly increase size on hover */
+        }
+
+        /* Menu items */
+        .menu-item {
+            padding: 10px;
+            text-align: center;
+            background-color: #7b7c7e;
+            border-bottom: 1px solid #b1b3b4;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        /* Hover effect for menu items */
+        .menu-item:hover {
+            background-color: #cc071e;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Button to open/close the menu -->
+    <button class="menu-button" id="menu-button" onclick="toggleMenu()">☰</button>
+
+    <!-- Menu structure -->
+    <div class="menu" id="menu">
+        <!-- Menu items -->
+        <div class="menu-content" id="menu-content">
+            <div class="menu-item" onclick="alert('Home Clicked')">Home</div>
+            <div class="menu-item" onclick="alert('About Clicked')">About</div>
+            <div class="menu-item" onclick="alert('Services Clicked')">Services</div>
+            <div class="menu-item" onclick="alert('Contact Clicked')">Contact</div>
+        </div>
+    </div>
+
+    <script>
+        var isMenuOpen = false;
+
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            var menuButton = document.getElementById("menu-button");
+
+            // Toggle the menu display
+            if (!isMenuOpen) {
+                menu.style.display = "block";
+                menuButton.innerHTML = "✕";
+            } else {
+                menu.style.display = "none";
+                menuButton.innerHTML = "☰";
+            }
+
+            isMenuOpen = !isMenuOpen;
+        }
+
+        // Removed hover functionality
+    </script>
+
+</body>
+</html>
