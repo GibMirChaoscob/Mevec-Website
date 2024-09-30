@@ -1,115 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Left Menu</title>
+    <title>Zentriertes Menü mit Logo</title>
     <style>
-        /* Base page styles */
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background-color: white;
-            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
-
-        /* Menu container */
-        .menu {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            background-color: #7b7c7e;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            width: 200px;
-            display: none; /* Hidden by default */
+ 
+        nav {
+            background-color: #dddddd;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            position: relative;
         }
-
-        /* Small rounded button for toggling */
-        .menu-button {
+ 
+        nav .logo {
             position: absolute;
-            top: 10px;
-            left: 10px;
-            background-color: #4b4a4d;
-            color: white;
-            border: none;
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
+            left: 20px;
+        }
+ 
+        nav .logo img {
+            height: 75px;
+        }
+ 
+        nav ul {
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 0;
             display: flex;
             justify-content: center;
-            align-items: center;
-            transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition for transform */
         }
-
-        /* Hover effect for the button */
-        .menu-button:hover {
-            background-color: #cc071e;
-            transform: scale(1.1); /* Slightly increase size on hover */
+ 
+        nav ul li {
+            margin: 0 10px;
         }
-
-        /* Menu items */
-        .menu-item {
-            padding: 10px;
+ 
+        nav ul li a {
+            display: block;
+            color: black;
             text-align: center;
-            background-color: #7b7c7e;
-            border-bottom: 1px solid #b1b3b4;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
+            padding: 14px 16px;
+            text-decoration: none;
         }
-
-        .menu-item:last-child {
-            border-bottom: none;
+ 
+        nav ul li a:hover {
+            background-color: #d1d1d1;
         }
-
-        /* Hover effect for menu items */
-        .menu-item:hover {
-            background-color: #cc071e;
+ 
+        #content {
+            flex-grow: 1;
+            padding: 20px;
+            text-align: center;
         }
-
+ 
+        footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #555;
+            text-align: center;
+        }
+ 
+        footer div {
+            margin: 5px 0;
+        }
+ 
+        footer a {
+            color: #555;
+            text-decoration: none;
+        }
+ 
+        footer a:hover {
+            text-decoration: underline;
+        }
+ 
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+ 
+            nav .logo {
+                position: relative;
+                margin-bottom: 10px;
+            }
+ 
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+ 
+            nav ul li {
+                margin: 5px 0;
+            }
+ 
+            footer {
+                padding: 15px;
+            }
+        }
     </style>
 </head>
 <body>
-
-    <!-- Button to open/close the menu -->
-    <button class="menu-button" id="menu-button" onclick="toggleMenu()">☰</button>
-
-    <!-- Menu structure -->
-    <div class="menu" id="menu">
-        <!-- Menu items -->
-        <div class="menu-content" id="menu-content">
-            <div class="menu-item" onclick="alert('Home Clicked')">Home</div>
-            <div class="menu-item" onclick="alert('About Clicked')">About</div>
-            <div class="menu-item" onclick="alert('Services Clicked')">Services</div>
-            <div class="menu-item" onclick="alert('Contact Clicked')">Contact</div>
+    <nav>
+        <div class="logo">
+            <a href="#home"><img src="Logo_Mevec_Consulting_500px.png" alt="Logo"></a>
         </div>
+        <ul>
+            <li><a href="#home">Start</a></li>
+            <li><a href="#Biography">About Me</a></li>
+            <li><a href="#Our Offers">Our Offers</a></li>
+            <li><a href="#Recommendation">Recommendation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+ 
+    <div id="content">
+        <h1>Willkommen auf unserer Website!</h1>
+        <p>Dies ist ein Beispiel für eine HTML-Seite mit einem zentrierten Navigationsmenü und einem Logo.</p>
     </div>
-
-    <script>
-        var isMenuOpen = false;
-
-        function toggleMenu() {
-            var menu = document.getElementById("menu");
-            var menuButton = document.getElementById("menu-button");
-
-            // Toggle the menu display
-            if (!isMenuOpen) {
-                menu.style.display = "block";
-                menuButton.innerHTML = "✕";
-            } else {
-                menu.style.display = "none";
-                menuButton.innerHTML = "☰";
-            }
-
-            isMenuOpen = !isMenuOpen;
-        }
-
-        // Removed hover functionality
-    </script>
-
+ 
+    <footer>
+        <div>Mevec Consulting GmbH</div>
+        <div>Musterstraße 1</div>
+        <div>12345 Musterstadt</div>
+        <div>Telefon: +49 123 456789</div>
+        <div>E-Mail: info@mevecconsulting.de</div>
+        <div><a href="#privacy">Datenschutzerklärung</a> | <a href="#terms">AGB</a></div>
+    </footer>
 </body>
 </html>
