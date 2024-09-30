@@ -9,7 +9,7 @@ body {
 
 nav {
     background-color: #dddddd;
-    padding: 20px 0;
+    padding: 40px 0; 
     display: flex;
     align-items: center;
     position: relative;
@@ -21,7 +21,7 @@ nav .logo {
 }
 
 nav .logo img {
-    height: 75px;
+    height: 100px; 
 }
 
 nav ul {
@@ -33,19 +33,21 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 30px; 
 }
 
 nav ul li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px 40px; 
+    font-size: 1.2em; 
     text-decoration: none;
 }
 
 nav ul li a:hover {
     background-color: #d1d1d1;
+    color:black;
 }
 
 #content {
@@ -98,3 +100,64 @@ footer a:hover {
         padding: 15px;
     }
 }
+.carousel {
+    position: relative;
+    max-width: 1024px;
+    max-height: 672px;
+    margin: 50px auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    transition: opacity 1s ease-in-out;
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .slide img {
+    width: 100%;
+    display: block;
+  }
+  
+  .indicators {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .indicator {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+  }
+  
+  .indicator.active {
+    background-color: #717171;
+  }
+  
+  .indicator:hover {
+    background-color: #999;
+  }
+  
+  .indicator:focus {
+    outline: 2px solid #555;
+  }

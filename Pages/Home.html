@@ -11,59 +11,58 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <div class="logo">
-                <a href="#home"><img src="../Images/Logo_Mevec_Consulting_500px.png" alt="Mevec Consulting Logo" height="50"></a>
+                <a href="#home"><img src="../Images/Logo_Mevec_Consulting_2000px.png" alt="Mevec Consulting Logo" height="50"></a>
             </div>
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#home">Start</a></li>
-                <li class="nav-item"><a class="nav-link" href="#Biography">About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="#Our Offers">Our Offers</a></li>
-                <li class="nav-item"><a class="nav-link" href="#Recommendation">Recommendation</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#Biography">About Me</a></li>
+                <li><a href="#Our Offers">Our Offers</a></li>
+                <li><a href="#Recommendation">Recommendation</a></li>
+                <li><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
- 
-    <div id="content">
-        <div class="container mt-5">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://m.media-amazon.com/images/I/71sA8HDYF5L.jpg" class="d-block w-100" alt="Image 1 Description">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://www.garnelio.de/media/image/66/1a/6a/IMG-1629UNcUdo5BoSAWP.jpg" class="d-block w-100" alt="Image 2 Description">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://www.garnelio.de/media/image/84/20/10/IMG-0606XqH7skMYXOpp3_600x600@2x.jpg" class="d-block w-100" alt="Image 3 Description">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+    <div class="carousel" aria-label="Image Carousel">
+        <div class="slides">
+          <div class="slide active" role="group" aria-roledescription="slide" aria-label="Slide 1 of 3">
+            <img src="../Images/DSC_2631.JPG" alt="Slide 1">
+          </div>
+          <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 2 of 3">
+            <img src="../Images/DSC_2632.JPG" alt="Slide 2">
+          </div>
+          <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 3 of 3">
+            <img src="../Images/Silizium.JPG" alt="Slide 3">
+          </div>
+        </div>
+        
+        <div class="indicators" role="tablist" aria-label="Slide Indicators">
+          <button class="indicator active" data-slide="0" aria-label="Slide 1" role="tab" aria-selected="true"></button>
+          <button class="indicator" data-slide="1" aria-label="Slide 2" role="tab" aria-selected="false"></button>
+          <button class="indicator" data-slide="2" aria-label="Slide 3" role="tab" aria-selected="false"></button>
+        </div>
+      </div>
+      
+      <script src="../script.js"></script>
+    <footer class="text-center mt-5">
+        <div class="d-flex justify-content-center align-items-center">
+            <div>
+                <img src="../Images/Logo_Mevec_Consulting_2000px.png" alt="Mevec Consulting Logo" height="80">
+            </div>
+            <div class="ms-3 text-start">
+                <div><strong>Dipl.-Ing. Dr. Gernot Mevec</strong></div>
+                <div>Ingenieurbüro für Werkstoffwissenschaften</div>
+                <div>Mühlbergweg 6</div>
+                <div>4360 Grein, Österreich</div>
+                <div>Telefon: +43 (660) 48 00 433</div>
+                <div>E-Mail: <a href="mailto:contact@mevec.net">contact@mevec.net</a></div>
+                <div>GISA-Zahl: 32433289</div>
+                <div>UID Nr.: ATU40878207</div>
+                <div><a href="#privacy">Datenschutzerklärung</a> | <a href="#terms">AGB</a></div>
             </div>
         </div>
-    </div>
- 
-    <footer class="text-center mt-5">
-        <div>Mevec Consulting GmbH</div>
-        <div>Mühlberg 6</div>
-        <div>4360 Grein</div>
-        <div>Telefon: +43 0660 4800 433</div>
-        <div>E-Mail: <a href="mailto:contact@mevec.net">contact@mevec.net</a></div>
-        <div><a href="#privacy">Datenschutzerklärung</a> | <a href="#terms">AGB</a></div>
     </footer>
+    
 
-    <!-- Include Bootstrap JavaScript Bundle -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -3,35 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zentriertes Menü mit Logo</title>
+    <title>Mevec Consulting</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <a href="#home"><img src="../Images/Logo_Mevec_Consulting_500px.png" alt="Logo"></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="logo">
+                <a href="#home"><img src="../Images/Logo_Mevec_Consulting_2000px.png" alt="Mevec Consulting Logo" height="50"></a>
+            </div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#Biography">About Me</a></li>
+                <li><a href="#Our Offers">Our Offers</a></li>
+                <li><a href="#Recommendation">Recommendation</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
         </div>
-        <ul>
-            <li><a href="#home">Start</a></li>
-            <li><a href="#Biography">About Me</a></li>
-            <li><a href="#Our Offers">Our Offers</a></li>
-            <li><a href="#Recommendation">Recommendation</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
     </nav>
- 
-    <div id="content">
-        <h1>Willkommen auf unserer Website!</h1>
-        <p>Dies ist ein Beispiel für eine HTML-Seite mit einem zentrierten Navigationsmenü und einem Logo.</p>
-    </div>
- 
-    <footer>
-        <div>Mevec Consulting GmbH</div>
-        <div>Mühlberg 6</div>
-        <div>4360 Grein</div>
-        <div>Telefon: +49 123 456789</div>
-        <div>E-Mail: contact@mevec.net</div>
-        <div><a href="#privacy">Datenschutzerklärung</a> | <a href="#terms">AGB</a></div>
+    <footer class="text-center mt-5">
+        <div class="d-flex justify-content-center align-items-center">
+            <div>
+                <img src="../Images/Logo_Mevec_Consulting_2000px.png" alt="Mevec Consulting Logo" height="80">
+            </div>
+            <div class="ms-3 text-start">
+                <div><strong>Dipl.-Ing. Dr. Gernot Mevec</strong></div>
+                <div>Ingenieurbüro für Werkstoffwissenschaften</div>
+                <div>Mühlbergweg 6</div>
+                <div>4360 Grein, Österreich</div>
+                <div>Telefon: +43 (660) 48 00 433</div>
+                <div>E-Mail: <a href="mailto:contact@mevec.net">contact@mevec.net</a></div>
+                <div>GISA-Zahl: 32433289</div>
+                <div>UID Nr.: ATU40878207</div>
+                <div><a href="#privacy">Datenschutzerklärung</a> | <a href="#terms">AGB</a></div>
+            </div>
+        </div>
     </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
