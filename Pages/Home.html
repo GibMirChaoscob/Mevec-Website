@@ -15,38 +15,47 @@
             </div>
             <ul>
                 <li><a href="Home.html">Home</a></li>
-                <li><a href="#Biography">About Me</a></li>
+                <li><a href="Biography.html">About Me</a></li>
                 <li><a href="#Our Offers">Our Offers</a></li>
                 <li><a href="#Recommendation">Recommendation</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <div class="carousel" aria-label="Image Carousel">
-        <div class="slides">
-          <div class="slide active" role="group" aria-roledescription="slide" aria-label="Slide 1 of 3">
-            <img src="../Images/DSC_2631.JPG" alt="Slide 1">
+    <div id="content">
+      <div class="container mt-5">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="../Images/DSC_2631.JPG" class="d-block w-100" alt="Image 1 Description">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="../Images/DSC_2632.JPG" class="d-block w-100" alt="Image 2 Description">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="../Images/Silizium.JPG" class="d-block w-100" alt="Image 3 Description">
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
           </div>
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 2 of 3">
-            <img src="../Images/DSC_2632.JPG" alt="Slide 2">
-          </div>
-          <div class="slide" role="group" aria-roledescription="slide" aria-label="Slide 3 of 3">
-            <img src="../Images/Silizium.JPG" alt="Slide 3">
-          </div>
-        </div>
-        
-        <div class="indicators" role="tablist" aria-label="Slide Indicators">
-          <button class="indicator active" data-slide="0" aria-label="Slide 1" role="tab" aria-selected="true"></button>
-          <button class="indicator" data-slide="1" aria-label="Slide 2" role="tab" aria-selected="false"></button>
-          <button class="indicator" data-slide="2" aria-label="Slide 3" role="tab" aria-selected="false"></button>
-        </div>
       </div>
-      
-      <script src="../script.js"></script>
+  </div>
     <footer class="text-center mt-5">
         <div class="d-flex justify-content-center align-items-center">
             <div>
-                <img src="../Images/Logo_Mevec_Consulting_2000px.png" alt="Mevec Consulting Logo" height="80">
+                <img src="../Images/Logo_Mevec_Consulting_2000px.png" alt="Mevec Consulting Logo" height="90">
             </div>
             <div class="ms-3 text-start">
                 <div><strong>Dipl.-Ing. Dr. Gernot Mevec</strong></div>
