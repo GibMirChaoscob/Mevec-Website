@@ -9,7 +9,7 @@ body {
 
 nav {
     background-color: #dddddd;
-    padding: 40px 0; 
+    padding: 40px 0;
     display: flex;
     align-items: center;
     position: relative;
@@ -21,7 +21,7 @@ nav .logo {
 }
 
 nav .logo img {
-    height: 100px; 
+    height: 100px;
 }
 
 nav ul {
@@ -33,21 +33,21 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 30px; 
+    margin: 0 30px;
 }
 
 nav ul li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 30px 40px; 
-    font-size: 1.1em; 
+    padding: 30px 40px;
+    font-size: 1.1em;
     text-decoration: none;
 }
 
 nav ul li a:hover {
     background-color: #d1d1d1;
-    color:black;
+    color: black;
 }
 
 #content {
@@ -100,19 +100,55 @@ footer a:hover {
         padding: 15px;
     }
 }
+
 .carousel-inner img {
     max-width: 1148px;
     max-height: 776px;
     object-fit: cover;
     margin: 0 auto;
 }
+
 .custom-btn {
+    background-color: #cc071e;
+    border-color: #cc071e;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+}
+
+.custom-btn:hover {
     background-color: #cc071e;
     border-color: #cc071e;
     color: white;
 }
 
-.custom-btn:hover {
-    background-color: #a00516;
-    border-color: #a00516;
+#about-experience {
+    padding: 20px;
+    font-size: 1.1em;
+    color: black;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about-experience p {
+    margin-bottom: 20px;
+}
+
+#center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
