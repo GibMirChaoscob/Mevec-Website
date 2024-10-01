@@ -106,3 +106,13 @@ footer a:hover {
     object-fit: cover;
     margin: 0 auto;
 }
+.custom-btn {
+    background-color: #cc071e;
+    border-color: #cc071e;
+    color: white;
+}
+
+.custom-btn:hover {
+    background-color: #a00516;
+    border-color: #a00516;
+}
