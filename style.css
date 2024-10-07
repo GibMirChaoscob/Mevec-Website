@@ -102,8 +102,8 @@ footer a:hover {
 }
 
 .carousel-inner img {
-    max-width: 1148px;
-    max-height: 776px;
+    max-width: 100%;
+    max-height: 450px;
     object-fit: cover;
     margin: 0 auto;
 }
