@@ -88,14 +88,9 @@ footer a:hover {
     border-color: #cc071e;
     color: white;
     padding: 10px 20px;
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
-.custom-btn:hover {
-    background-color: #cc071e;
-    border-color: #cc071e;
-    color: white;
-}
 
 #about-experience {
     padding: 20px;
@@ -139,13 +134,13 @@ footer a:hover {
 }
 
 .rec-image {
-    width: 250px;
-    height: 250px;
+    width: 312px;
+    height: 118px;
     margin: 0 20px;
 }
 
 .rec-text {
-    font-size: 25px;
+    font-size: 18px;
     flex-grow: 1;
     text-align: center;
 }
