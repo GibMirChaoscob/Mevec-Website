@@ -144,3 +144,8 @@ footer a:hover {
     flex-grow: 1;
     text-align: center;
 }
+.off-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+}
