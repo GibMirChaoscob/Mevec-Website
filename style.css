@@ -143,9 +143,16 @@ footer a:hover {
     font-size: 18px;
     flex-grow: 1;
     text-align: center;
+    margin: 2pxgit;
 }
 .off-image {
     width: 200px;
     height: 200px;
     margin: 0 20px;
+}
+.off-text {
+    font-size: 18px;
+    flex-grow: 1;
+    text-align: center;
+    margin: 2px;
 }
