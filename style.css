@@ -132,18 +132,17 @@ footer a:hover {
     margin-bottom: 20px;
     box-sizing: border-box;
 }
-
-.rec-image {
-    width: 312px;
-    height: 118px;
-    margin: 0 20px;
+.rec-image{
+    width: 300px;
+    margin: 2px;
 }
 
 .rec-text {
     font-size: 18px;
     flex-grow: 1;
     text-align: center;
-    margin: 2pxgit;
+    margin: 10px;
+    padding: 5px;
 }
 .off-image {
     width: 100px;
