@@ -182,3 +182,39 @@ footer a:hover {
     font-size: 16px;
     color: #333;
 }
+.timeline-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+.year {
+    font-weight: bold;
+    color: #58585A;
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.description {
+    max-width: 500px;
+    color: #333;
+    text-align: center;
+}
