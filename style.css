@@ -156,8 +156,8 @@ footer a:hover {
 }
 
 .off-image {
-    width: 60%;
-    max-width: 150px;
+    width: 100%;
+    max-width: 600px;
     height: auto;
     margin: 10px auto;
     display: block; 
