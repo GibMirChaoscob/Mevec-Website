@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 nav {
@@ -305,7 +306,7 @@ footer a:hover {
     }
 }
 
-/* Other Impressum 
+
 @media screen and (max-width: 767px) {
 
     .navbar-nav {
@@ -326,4 +327,4 @@ footer a:hover {
         text-align: center;
     }
 }
-*/
+
