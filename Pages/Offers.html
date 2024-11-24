@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Mevec Consulting</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../script.js"></script>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
 </head>
@@ -11,18 +13,18 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
         <div class="container">
             <a class="navbar-brand" href="../Pages/Home.html">
-                <img src="../Images/Logo_Mevec_Consulting_2000px.png" width="200px" alt="Logo" >
+                <img src="../Images/Logo_Mevec_Consulting_2000px.png" width="200px" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item p-1"><a class="nav-link" href="Home.html">Home</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="AboutMe.html">About Me</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Offers.html">Our Offers</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Reco.html">Recommendation</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Contact.html">Contact</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-home" href="Home.html">Home</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-about" href="AboutMe.html">About Me</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-offers" href="Offers.html">Our Offers</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-recommendation" href="Reco.html">Recommendation</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-contact" href="Contact.html">Contact</a></li>
                 </ul>
                 <div class="ms-3 d-flex align-items-center">
                     <a href="?lang=en" title="English">
@@ -39,59 +41,75 @@
     <p></p>
     <div class="rec-container">
         <span class="rec-text">
-            <h4>Consultation and support in material development and damage cases</h4>
-            We offer expert consultation in material development and damage analysis, tailored to ensure the optimal performance and longevity of your products. Our experienced team thoroughly examines your material needs, identifies suitable materials, and offers detailed insights to help you make informed decisions. We specialize in troubleshooting material-related issues, analyzing damage, and providing actionable solutions designed to minimize downtime, reduce maintenance costs, and enhance overall product durability. By partnering with us, you gain access to cutting-edge expertise and a commitment to material excellence that drives reliability, efficiency, and long-term success. Let us help you achieve superior performance and product lifespan with our specialized services.        </span>
+            <h4 data-translate="rec-consultation-title">Consultation and support in material development and damage cases</h4>
+            <p data-translate="rec-consultation-text">
+                We offer expert consultation in material development and damage analysis, tailored to ensure the optimal performance and longevity of your products. Our experienced team thoroughly examines your material needs, identifies suitable materials, and offers detailed insights to help you make informed decisions. We specialize in troubleshooting material-related issues, analyzing damage, and providing actionable solutions designed to minimize downtime, reduce maintenance costs, and enhance overall product durability. By partnering with us, you gain access to cutting-edge expertise and a commitment to material excellence that drives reliability, efficiency, and long-term success. Let us help you achieve superior performance and product lifespan with our specialized services.
+            </p>
+        </span>
         <img src="../Images/IMG_20241116_174636.jpg" width="400px" class="rec-image-offer">
     </div>
     <hr class="divider">
- 
+    
     <div class="rec-container">
         <span class="rec-text">
-            <h4>Research and Innovation Projects for Companies</h4>
-            Transform your business with our tailored research and innovation projects, designed to meet your unique challenges and goals. We work closely with companies across various industries to develop cutting-edge solutions that not only drive growth but also enhance your competitive edge in the market. Our expert team is dedicated to exploring and integrating the latest technologies and methodologies, focusing on improving product performance, efficiency, and sustainability. Whether you're looking to optimize existing products or pioneer new innovations, our collaborative approach ensures that you stay ahead of the curve, positioning your business for long-term success and industry leadership.        </span>
+            <h4 data-translate="rec-research-title">Research and Innovation Projects for Companies</h4>
+            <p data-translate="rec-research-text">
+                Transform your business with our tailored research and innovation projects, designed to meet your unique challenges and goals. We work closely with companies across various industries to develop cutting-edge solutions that not only drive growth but also enhance your competitive edge in the market. Our expert team is dedicated to exploring and integrating the latest technologies and methodologies, focusing on improving product performance, efficiency, and sustainability. Whether you're looking to optimize existing products or pioneer new innovations, our collaborative approach ensures that you stay ahead of the curve, positioning your business for long-term success and industry leadership.
+            </p>
+        </span>
         <img src="../Images/IMG_20241116_174636.jpg" width="400px" class="rec-image-offer">
     </div>
     <hr class="divider">
- 
+    
     <div class="rec-container">
         <span class="rec-text">
-            <h4>Customer Support and Technical Assistance in the Application of New Materials</h4>
-            We are here to provide expert guidance on the application of new materials, ensuring that your operations run smoothly and efficiently. We work closely with you to guarantee optimal material performance, compliance with industry standards, and the successful integration of new materials into your processes. Whether you have questions about material properties, application techniques, or best practices, our team is ready to provide clear, actionable solutions. Count on us for prompt, reliable assistance that empowers your success and helps you achieve the highest standards in quality and performance.        </span>
+            <h4 data-translate="rec-support-title">Customer Support and Technical Assistance in the Application of New Materials</h4>
+            <p data-translate="rec-support-text">
+                We are here to provide expert guidance on the application of new materials, ensuring that your operations run smoothly and efficiently. We work closely with you to guarantee optimal material performance, compliance with industry standards, and the successful integration of new materials into your processes. Whether you have questions about material properties, application techniques, or best practices, our team is ready to provide clear, actionable solutions. Count on us for prompt, reliable assistance that empowers your success and helps you achieve the highest standards in quality and performance.
+            </p>
+        </span>
         <img src="../Images/IMG_20241116_174636.jpg" width="400px" class="rec-image-offer">
     </div>
     <hr class="divider">
- 
+    
     <div class="sep"></div>
+    
     <div class="rec-container">
         <span class="rec-text">
-            <h4>Training and Further Education for Companies and Educational Institutions</h4>
-            Enhance your team’s capabilities and expertise with our specialized training programs, designed for both companies and educational institutions. Our comprehensive courses cover the latest advancements in materials science, cutting-edge technologies, and industry best practices, ensuring that your workforce stays ahead of the curve. We focus on fostering a culture of continuous learning, innovation, and practical problem-solving skills, empowering your team to address today’s challenges and prepare for tomorrow’s opportunities. Equip your employees, students, and research teams with the knowledge and tools they need to excel in a rapidly evolving field and drive long-term success within your organization.        </span>
+            <h4 data-translate="rec-training-title">Training and Further Education for Companies and Educational Institutions</h4>
+            <p data-translate="rec-training-text">
+                Enhance your team’s capabilities and expertise with our specialized training programs, designed for both companies and educational institutions. Our comprehensive courses cover the latest advancements in materials science, cutting-edge technologies, and industry best practices, ensuring that your workforce stays ahead of the curve. We focus on fostering a culture of continuous learning, innovation, and practical problem-solving skills, empowering your team to address today’s challenges and prepare for tomorrow’s opportunities. Equip your employees, students, and research teams with the knowledge and tools they need to excel in a rapidly evolving field and drive long-term success within your organization.
+            </p>
+        </span>
         <img src="../Images/IMG_20241116_174636.jpg" width="400px" class="rec-image-offer">
     </div>
+    
     
 
     <footer class="text-center mt-5">
         <div class="d-flex justify-content-center align-items-center">
             <div>
-                <img src="../Images/ingbuero-mindestgroesse-25mm1 (1).jpg"  height="90" style="margin-bottom: 10px">
+                <img src="../Images/ingbuero-mindestgroesse-25mm1 (1).jpg" height="90" style="margin-bottom: 10px">
                 <h1></h1>
-                <img src="../Images/Logo_Mevec_Consulting_2000px.png"  height="90"> 
+                <img src="../Images/Logo_Mevec_Consulting_2000px.png" height="90">
             </div>
             <div class="ms-3 text-start">
-                <div><strong>Dipl.-Ing. Dr. Gernot Mevec</strong></div>
-                <div>Ingenieurbüro für Werkstoffwissenschaften</div>
-                <div>Mühlbergweg 6</div>
-                <div>4360 Grein, Österreich</div>
-                <div>Telefon: +43&nbsp;(660)&nbsp;48&nbsp;00&nbsp;433</div>
-                <div>E-Mail: <a href="mailto:contact@mevec.net">contact@mevec.net</a></div>
-                <div>GISA-Nr: 32433289</div>
-                <div>UID Nr.: ATU40878207</div>
-                <div><a href="../Pages/privacy.html">Privacy Policy</a></a></div>
+                <div><strong data-translate="footer-name">Dipl.-Ing. Dr. Gernot Mevec</strong></div>
+                <div data-translate="footer-title">Engineering Office for Material Science</div>
+                <div data-translate="footer-address">Mühlbergweg 6</div>
+                <div data-translate="footer-location">4360 Grein, Austria/Europe</div>
+                <div data-translate="footer-phone">Telefon: +43&nbsp;(660)&nbsp;48&nbsp;00&nbsp;433</div>
+                <div>
+                    <span data-translate="footer-email-label">E-Mail:</span> 
+                    <a href="mailto:contact@mevec.net" data-translate="footer-email">contact@mevec.net</a>
+                </div>
+                <div data-translate="footer-gisa">GISA-Nr: 32433289</div>
+                <div data-translate="footer-vat">VAT Nr.: ATU40878207</div>
+                <div>
+                    <a href="../Pages/privacy.html" data-translate="footer-privacy">Privacy Policy</a>
+                </div>
             </div>
         </div>
     </footer>
-    
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

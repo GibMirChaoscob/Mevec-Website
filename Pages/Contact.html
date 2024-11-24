@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Mevec Consulting</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../script.js"></script>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
 </head>
@@ -18,11 +20,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item p-1"><a class="nav-link" href="Home.html">Home</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="AboutMe.html">About Me</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Offers.html">Our Offers</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Reco.html">Recommendation</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Contact.html">Contact</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-home" href="Home.html">Home</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-about" href="AboutMe.html">About Me</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-offers" href="Offers.html">Our Offers</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-recommendation" href="Reco.html">Recommendation</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-contact" href="Contact.html">Contact</a></li>
                 </ul>
                 <div class="ms-3 d-flex align-items-center">
                     <a href="?lang=en" title="English">
@@ -42,53 +44,61 @@
         <h1></h1>
         <form action="https://formspree.io/f/mdkolnwv" method="POST" class="contact-form bg-light">
             <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
+                <label for="name" class="form-label" data-translate="contact-name-label">Name</label>
                 <input type="text" class="form-control" id="name" name="name" required>
             </div>
             <div class="mb-3">
-                <label for="firma" class="form-label">Company Name</label>
-                <input type="text" class="form-control" id="firma" name="firma" not required>
+                <label for="firma" class="form-label" data-translate="contact-company-label">Company Name</label>
+                <input type="text" class="form-control" id="firma" name="firma">
             </div>
             <div class="mb-3">
-                <label for="email" class="form-label">E-Mail</label>
+                <label for="email" class="form-label" data-translate="contact-email-label">E-Mail</label>
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <div class="mb-3">
-                <label for="subject" class="form-label">Subject</label>
+                <label for="subject" class="form-label" data-translate="contact-subject-label">Subject</label>
                 <input type="text" class="form-control" id="subject" name="subject" required>
             </div>
             <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
+                <label for="message" class="form-label" data-translate="contact-message-label">Message</label>
                 <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
             </div>          
-            <button type="submit" class="custom-btn">Send</button>
+            <button type="submit" class="custom-btn" data-translate="contact-send-button">Send</button>
             <section id="about-experience" class="text-center my-0">
-                Privacy: Your information will only be used to respond to this request. We will never use this data for any other purposes. For more information, please see our <a id="Privacy" href="privacy.html" target="_blank">Privacy Policy</a>.
-            </section> 
+                <span data-translate="contact-privacy">
+                    Privacy: Your information will only be used to respond to this request. We will never use this data for any other purposes. For more information, please see our 
+                </span>
+                <a id="Privacy" href="privacy.html" target="_blank" data-translate="contact-privacy-policy">Privacy Policy</a>.
+            </section>
+            
+            
         </form>
     </div>
 
     <footer class="text-center mt-5">
         <div class="d-flex justify-content-center align-items-center">
             <div>
-                <img src="../Images/ingbuero-mindestgroesse-25mm1 (1).jpg"  height="90" style="margin-bottom: 10px">
+                <img src="../Images/ingbuero-mindestgroesse-25mm1 (1).jpg" height="90" style="margin-bottom: 10px">
                 <h1></h1>
-                <img src="../Images/Logo_Mevec_Consulting_2000px.png"  height="90"> 
+                <img src="../Images/Logo_Mevec_Consulting_2000px.png" height="90">
             </div>
             <div class="ms-3 text-start">
-                <div><strong>Dipl.-Ing. Dr. Gernot Mevec</strong></div>
-                <div>Ingenieurbüro für Werkstoffwissenschaften</div>
-                <div>Mühlbergweg 6</div>
-                <div>4360 Grein, Österreich</div>
-                <div>Telefon: +43&nbsp;(660)&nbsp;48&nbsp;00&nbsp;433</div>
-                <div>E-Mail: <a href="mailto:contact@mevec.net">contact@mevec.net</a></div>
-                <div>GISA-Nr: 32433289</div>
-                <div>VAT Nr.: ATU40878207</div>
-                <div><a href="../Pages/privacy.html">Privacy Policy</a></a></div>
+                <div><strong data-translate="footer-name">Dipl.-Ing. Dr. Gernot Mevec</strong></div>
+                <div data-translate="footer-title">Engineering Office for Material Science</div>
+                <div data-translate="footer-address">Mühlbergweg 6</div>
+                <div data-translate="footer-location">4360 Grein, Austria/Europe</div>
+                <div data-translate="footer-phone">Telefon: +43&nbsp;(660)&nbsp;48&nbsp;00&nbsp;433</div>
+                <div>
+                    <span data-translate="footer-email-label">E-Mail:</span> 
+                    <a href="mailto:contact@mevec.net" data-translate="footer-email">contact@mevec.net</a>
                 </div>
+                <div data-translate="footer-gisa">GISA-Nr: 32433289</div>
+                <div data-translate="footer-vat">VAT Nr.: ATU40878207</div>
+                <div>
+                    <a href="../Pages/privacy.html" data-translate="footer-privacy">Privacy Policy</a>
+                </div>
+            </div>
         </div>
     </footer>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

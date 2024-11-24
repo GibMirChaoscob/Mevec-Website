@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Mevec Consulting</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../script.js"></script>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
 </head>
@@ -18,11 +20,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item p-1"><a class="nav-link" href="Home.html">Home</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="AboutMe.html">About Me</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Offers.html">Our Offers</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Reco.html">Recommendation</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Contact.html">Contact</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-home" href="Home.html">Home</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-about" href="AboutMe.html">About Me</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-offers" href="Offers.html">Our Offers</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-recommendation" href="Reco.html">Recommendation</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-contact" href="Contact.html">Contact</a></li>
                 </ul>
                 <div class="ms-3 d-flex align-items-center">
                     <a href="?lang=en" title="English">
@@ -39,88 +41,102 @@
 
     <div class="rec-container">
         <span class="rec-text">
-            <h4>Technical University Vienna</h4>
-            The Vienna University of Technology offers a diverse range of over 50 bachelor's and master's programs in engineering, computer science, architecture, natural sciences, and business. Emphasizing interdisciplinary approaches and practical training, the university provides access to modern research facilities and a strong network of international partners for exchange opportunities. TU Wien is an excellent choice for a top-notch technical education.
+            <h4 data-translate="rec-tuwien">Technical University Vienna</h4>
+            <p data-translate="rec-tuwien-description">
+                The Vienna University of Technology offers a diverse range of over 50 bachelor's and master's programs in engineering, computer science, architecture, natural sciences, and business. Emphasizing interdisciplinary approaches and practical training, the university provides access to modern research facilities and a strong network of international partners for exchange opportunities. TU Wien is an excellent choice for a top-notch technical education.
+            </p>
         </span>
         <a href="https://www.tuwien.at" target="_blank">
             <img src="../Images/TU Wien-logo2022_transparent_300dpi_RGB.png" class="rec-image">
         </a>
     </div>
     <hr class="divider">
- 
     <div class="rec-container">
         <span class="rec-text">
-            <h4>Technical University Clausthal</h4>
-            The TU Clausthal is well-regarded for its exceptional academic programs and strong emphasis on research and innovation. Known for its specialized courses in engineering, natural sciences, and business, the university offers a dynamic learning environment with close student-faculty interactions. With a focus on practical skills and interdisciplinary collaboration, TU Clausthal prepares students for success in both academic and professional fields. The picturesque town of Clausthal-Zellerfeld, combined with the university's modern campus, provides an inspiring backdrop for both personal and academic development.</span>       
-            <a href="https://www.tu-clausthal.de" target="_blank">
+            <h4 data-translate="rec-tuclausthal">Technical University Clausthal</h4>
+            <p data-translate="rec-tuclausthal-description">
+                The TU Clausthal is well-regarded for its exceptional academic programs and strong emphasis on research and innovation. Known for its specialized courses in engineering, natural sciences, and business, the university offers a dynamic learning environment with close student-faculty interactions. With a focus on practical skills and interdisciplinary collaboration, TU Clausthal prepares students for success in both academic and professional fields. The picturesque town of Clausthal-Zellerfeld, combined with the university's modern campus, provides an inspiring backdrop for both personal and academic development.
+            </p>
+        </span>
+        <a href="https://www.tu-clausthal.de" target="_blank">
             <img src="../Images/Logo_TUC_de_rgb.SVG" alt="Placeholder" class="rec-image">
         </a>
     </div>
     <hr class="divider">
- 
     <div class="rec-container">
         <span class="rec-text">
-            <h4>Montanuniversität Leoben</h4>
-            The University of Leoben, officially known as Montanuniversität Leoben, is highly regarded for its specialized academic programs and dedication to fostering innovation. Renowned for its excellence in engineering, natural resources, and material sciences, the university is a hub for cutting-edge research and industry collaboration. With a distinguished faculty and a student-centered approach, it offers a supportive and inspiring environment for learning. Additionally, its scenic location in the heart of Austria, combined with a vibrant student community and a strong focus on sustainability, provides an ideal setting for both academic achievement and personal development.</span>
+            <h4 data-translate="rec-unileoben">Montanuniversität Leoben</h4>
+            <p data-translate="rec-unileoben-description">
+                The University of Leoben, officially known as Montanuniversität Leoben, is highly regarded for its specialized academic programs and dedication to fostering innovation. Renowned for its excellence in engineering, natural resources, and material sciences, the university is a hub for cutting-edge research and industry collaboration. With a distinguished faculty and a student-centered approach, it offers a supportive and inspiring environment for learning. Additionally, its scenic location in the heart of Austria, combined with a vibrant student community and a strong focus on sustainability, provides an ideal setting for both academic achievement and personal development.
+            </p>
+        </span>
         <a href="https://www.unileoben.ac.at" target="_blank">
             <img src="../Images/unileoben.svg" alt="Placeholder" class="rec-image">
         </a>
     </div>
     <hr class="divider">
- 
     <div class="rec-container">
         <span class="rec-text">
-            <h4>University of Sheffield</h4>
-            The University of Sheffield is highly regarded for its distinguished academic programs and commitment to student development. Renowned for its rigorous research initiatives and highly qualified faculty, the university provides a supportive and engaging learning environment. Additionally, the vibrant campus and the rich cultural offerings of the city create an ideal setting for academic and personal growth.</span>
+            <h4 data-translate="rec-sheffield">University of Sheffield</h4>
+            <p data-translate="rec-sheffield-description">
+                The University of Sheffield is highly regarded for its distinguished academic programs and commitment to student development. Renowned for its rigorous research initiatives and highly qualified faculty, the university provides a supportive and engaging learning environment. Additionally, the vibrant campus and the rich cultural offerings of the city create an ideal setting for academic and personal growth.
+            </p>
         </span>
         <a href="https://www.sheffield.ac.uk" target="_blank">
             <img src="../Images/UOSLogo_Primary_Violet_RGB.png" alt="Placeholder" class="rec-image">
         </a>
     </div>
     <hr class="divider">
- 
     <div class="rec-container">
         <span class="rec-text">
-            <h4>Johannes Kepler University Linz</h4>
-            The Johannes Kepler University Linz (JKU) is highly regarded for its innovative academic programs and strong focus on student success. Renowned for its cutting-edge research initiatives and distinguished faculty, the university fosters an inspiring and dynamic learning environment. Additionally, the modern campus, set against the picturesque backdrop of Linz, and the city's rich cultural and technological landscape provide an excellent foundation for both academic achievement and personal development.        </span>
+            <h4 data-translate="rec-jku">Johannes Kepler University Linz</h4>
+            <p data-translate="rec-jku-description">
+                The Johannes Kepler University Linz (JKU) is highly regarded for its innovative academic programs and strong focus on student success. Renowned for its cutting-edge research initiatives and distinguished faculty, the university fosters an inspiring and dynamic learning environment. Additionally, the modern campus, set against the picturesque backdrop of Linz, and the city's rich cultural and technological landscape provide an excellent foundation for both academic achievement and personal development.
+            </p>
+        </span>
         <a href="https://www.jku.at" target="_blank">
             <img src="../Images/JKU_Hauptlogo_de_schwarz_hoch_rgb.jpg" alt="Placeholder" class="rec-image">
         </a>
     </div>
     <hr class="divider">
- 
     <div class="rec-container">
         <span class="rec-text">
-            <h4>RWTH Aachen University</h4>
-            RWTH Aachen University is renowned for its excellence in engineering, technology, and natural sciences. With a strong focus on research and innovation, the university offers a challenging academic environment. Its close ties with industry and cutting-edge facilities provide students with valuable hands-on experience, preparing them for successful careers. The vibrant city of Aachen adds to the dynamic atmosphere, offering both academic and cultural opportunities.</span>
+            <h4 data-translate="rec-rwth">RWTH Aachen University</h4>
+            <p data-translate="rec-rwth-description">
+                RWTH Aachen University is renowned for its excellence in engineering, technology, and natural sciences. With a strong focus on research and innovation, the university offers a challenging academic environment. Its close ties with industry and cutting-edge facilities provide students with valuable hands-on experience, preparing them for successful careers. The vibrant city of Aachen adds to the dynamic atmosphere, offering both academic and cultural opportunities.
+            </p>
+        </span>
         <a href="https://www.rwth-aachen.de/go/id/a/" target="_blank">
             <img src="../Images/RWTH_Logo_3.svg.png" alt="Placeholder" class="rec-image">
         </a>
     </div>
     
+    
 
     <footer class="text-center mt-5">
         <div class="d-flex justify-content-center align-items-center">
             <div>
-                <img src="../Images/ingbuero-mindestgroesse-25mm1 (1).jpg"  height="90" style="margin-bottom: 10px">
+                <img src="../Images/ingbuero-mindestgroesse-25mm1 (1).jpg" height="90" style="margin-bottom: 10px">
                 <h1></h1>
-                <img src="../Images/Logo_Mevec_Consulting_2000px.png"  height="90"> 
+                <img src="../Images/Logo_Mevec_Consulting_2000px.png" height="90">
             </div>
             <div class="ms-3 text-start">
-                <div><strong>Dipl.-Ing. Dr. Gernot Mevec</strong></div>
-                <div>Ingenieurbüro für Werkstoffwissenschaften</div>
-                <div>Mühlbergweg 6</div>
-                <div>4360 Grein, Österreich</div>
-                <div>Telefon: +43&nbsp;(660)&nbsp;48&nbsp;00&nbsp;433</div>
-                <div>E-Mail: <a href="mailto:contact@mevec.net">contact@mevec.net</a></div>
-                <div>GISA-Nr: 32433289</div>
-                <div>VAT Nr.: ATU40878207</div>
-                <div><a href="../Pages/privacy.html">Privacy Policy</a></a></div>
+                <div><strong data-translate="footer-name">Dipl.-Ing. Dr. Gernot Mevec</strong></div>
+                <div data-translate="footer-title">Engineering Office for Material Science</div>
+                <div data-translate="footer-address">Mühlbergweg 6</div>
+                <div data-translate="footer-location">4360 Grein, Austria/Europe</div>
+                <div data-translate="footer-phone">Telefon: +43&nbsp;(660)&nbsp;48&nbsp;00&nbsp;433</div>
+                <div>
+                    <span data-translate="footer-email-label">E-Mail:</span> 
+                    <a href="mailto:contact@mevec.net" data-translate="footer-email">contact@mevec.net</a>
+                </div>
+                <div data-translate="footer-gisa">GISA-Nr: 32433289</div>
+                <div data-translate="footer-vat">VAT Nr.: ATU40878207</div>
+                <div>
+                    <a href="../Pages/privacy.html" data-translate="footer-privacy">Privacy Policy</a>
+                </div>
             </div>
         </div>
     </footer>
-    
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
