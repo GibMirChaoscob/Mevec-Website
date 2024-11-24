@@ -95,7 +95,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 "privacy-contact-title": "10. Contact",
                 "privacy-contact-text": "If you have any questions or concerns about data protection, you can contact us at any time:",
                 "privacy-contact-details": "DR GERNOT MEVEC CONSULTING Mühlbergweg 6 4360 Grein Austria E-Mail: contact@mevec.net Phone: +43 (660) 48 00 433",
- 
+                "contact-headline": "Contact",
+                "contact-text": "Are you looking for an experienced expert in material development and innovative solutions? Contact Dipl.-Ing. Dr. Gernot Mevec and benefit from his extensive knowledge and international experience."
             },
             "de": {
                 "nav-home": "Startseite",
@@ -192,7 +193,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 "privacy-contact-title": "10. Kontakt",
                 "privacy-contact-text": "Für Fragen oder Anliegen zum Thema Datenschutz können Sie sich jederzeit an uns wenden:",
                 "privacy-contact-details": "DR GERNOT MEVEC CONSULTING<br>Mühlbergweg 6<br>4360 Grein Österreich<br>E-Mail: contact@mevec.net<br>Telefon: +43 (660) 48 00 433",
-
+                "contact-text":"Suchen Sie einen erfahrenen Experten für Materialentwicklung und innovative Lösungen? Kontaktieren Sie Dipl.-Ing. Dr. Gernot Mevec und profitieren Sie von seinem umfangreichen Wissen und internationalen Erfahrungen.",
+                "contact-headline": "Kontakt",
             }
     };
     const setLanguage = (language) => {
