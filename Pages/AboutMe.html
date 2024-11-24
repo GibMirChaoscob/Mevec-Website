@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="de">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Mevec Consulting</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../script.js"></script>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="../Favicons/apple-touch-icon.png">
@@ -12,23 +13,22 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../Favicons/favicon-16x16.png">
     <link rel="manifest" href="../Favicons/site.webmanifest">
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
         <div class="container">
             <a class="navbar-brand" href="../Pages/Home.html">
-                <img src="../Images/Logo_Mevec_Consulting_2000px.png" width="200px" alt="Logo" >
+                <img src="../Images/Logo_Mevec_Consulting_2000px.png" width="200px" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item p-1"><a class="nav-link" href="Home.html">Home</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="AboutMe.html">About Me</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Offers.html">Our Offers</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Reco.html">Recommendation</a></li>
-                    <li class="nav-item p-1"><a class="nav-link" href="Contact.html">Contact</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-home" href="Home.html">Home</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-about" href="AboutMe.html">About Me</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-offers" href="Offers.html">Our Offers</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-recommendation" href="Reco.html">Recommendation</a></li>
+                    <li class="nav-item p-1"><a class="nav-link" data-translate="nav-contact" href="Contact.html">Contact</a></li>
                 </ul>
                 <div class="ms-3 d-flex align-items-center">
                     <a href="?lang=en" title="English">
@@ -42,69 +42,74 @@
         </div>
     </nav>
     <p></p>
-    <div class="rec-container">
-     <span class="rec-text">
-            <h4>35 Years of Industry Experience</h4>
-           Dr. Mevec has had an impressive career in the industry, leading him through various positions and projects worldwide. 
-           His expertise in material and materials development has significantly contributed to innovation in numerous industries.
-        </span>
-    </div>
-
+    
     <div class="rec-container">
         <span class="rec-text">
-            <h4>20 Years of Teaching Experience</h4>
-            In addition to his practical work in the industry, Dr. Mevec has taught at universities and technical colleges for over two decades. 
-            His experience as a lecturer extends to training future engineers and technicians, thereby not only passing on knowledge but also contributing to the development of the technical field.
-
-            In addition to his practical work in the industry, Dr. Mevec has taught at universities and technical colleges for over two decades. 
-            His experience as a lecturer extends to training future engineers and technicians, thereby not only passing on knowledge but also contributing to the development of the technical field.
-            In addition to his practical work in the industry, Dr. Mevec has taught at universities and technical colleges for over two decades. 
-            His experience as a lecturer extends to training future engineers and technicians, thereby not only passing on knowledge but also contributing to the development of the technical field.
-            In addition to his practical work in the industry, Dr. Mevec has taught at universities and technical colleges for over two decades. 
-            His experience as a lecturer extends to training future engineers and technicians, thereby not only passing on knowledge but also contributing to the development of the technical field.
-            In addition to his practical work in the industry, Dr. Mevec has taught at universities and technical colleges for over two decades. 
-            His experience as a lecturer extends to training future engineers and technicians, thereby not only passing on knowledge but also contributing to the development of the technical field.
-        </span>
-        <a>
-            <img src="../Images/20230629-DSC_4848-Bearbeitet.jpg" alt="Placeholder" class="rec-image-mevec">
-        </a>
-    </div>
-    <div class="rec-container">
-        <span class="rec-text">
-            <h4>Research, Material Development, and Customer Support Worldwide</h4>
-            Dr. Mevec's work is marked by his international orientation. He has led research projects and provided support on four continents, developed new materials, and assisted clients in a wide variety of industries. His global network and interdisciplinary projects make him a top-level expert.
+            <h4 data-translate="experience-title">35 Years of Industry Experience</h4>
+            <p data-translate="experience-text">
+                Dr. Mevec has had an impressive career in the industry, leading him through various positions and projects worldwide. 
+                His expertise in material and materials development has significantly contributed to innovation in numerous industries.
+            </p>
         </span>
     </div>
     
     <div class="rec-container">
         <span class="rec-text">
-            <h4>Founding of Engineering Firm</h4>
-            In 2020, Dr. Mevec founded his own engineering firm, with the goal of advising companies and organizations in the fields of research, development, and application of materials. His extensive experience and ability to find innovative solutions make him a sought-after consultant and partner for companies around the world.
+            <h4 data-translate="teaching-title">20 Years of Teaching Experience</h4>
+            <p data-translate="teaching-text">
+                In addition to his practical work in the industry, Dr. Mevec has taught at universities and technical colleges for over two decades. 
+                His experience as a lecturer extends to training future engineers and technicians, thereby not only passing on knowledge but also contributing to the development of the technical field.
+            </p>
+        </span>
+        <a>
+            <img src="../Images/20230629-DSC_4848-Bearbeitet.jpg" alt="Placeholder" class="rec-image-mevec">
+        </a>
+    </div>
+    
+    <div class="rec-container">
+        <span class="rec-text">
+            <h4 data-translate="research-title">Research, Material Development, and Customer Support Worldwide</h4>
+            <p data-translate="research-text">
+                Dr. Mevec's work is marked by his international orientation. He has led research projects and provided support on four continents, developed new materials, and assisted clients in a wide variety of industries. His global network and interdisciplinary projects make him a top-level expert.
+            </p>
         </span>
     </div>
+    
+    <div class="rec-container">
+        <span class="rec-text">
+            <h4 data-translate="founding-title">Founding of Engineering Firm</h4>
+            <p data-translate="founding-text">
+                In 2020, Dr. Mevec founded his own engineering firm, with the goal of advising companies and organizations in the fields of research, development, and application of materials. His extensive experience and ability to find innovative solutions make him a sought-after consultant and partner for companies around the world.
+            </p>
+        </span>
+    </div>    
     
 
 
     <footer class="text-center mt-5">
         <div class="d-flex justify-content-center align-items-center">
             <div>
-                <img src="../Images/ingbuero-mindestgroesse-25mm1 (1).jpg"  height="90" style="margin-bottom: 10px">
+                <img src="../Images/ingbuero-mindestgroesse-25mm1 (1).jpg" height="90" style="margin-bottom: 10px">
                 <h1></h1>
-                <img src="../Images/Logo_Mevec_Consulting_2000px.png"  height="90"> 
+                <img src="../Images/Logo_Mevec_Consulting_2000px.png" height="90">
             </div>
             <div class="ms-3 text-start">
-                <div><strong>Dipl.-Ing. Dr. Gernot Mevec</strong></div>
-                <div>Ingenieurbüro für Werkstoffwissenschaften</div>
-                <div>Mühlbergweg 6</div>
-                <div>4360 Grein, Österreich</div>
-                <div>Telefon: +43&nbsp;(660)&nbsp;48&nbsp;00&nbsp;433</div>
-                <div>E-Mail: <a href="mailto:contact@mevec.net">contact@mevec.net</a></div>
-                <div>GISA-Nr: 32433289</div>
-                <div>VAT Nr.: ATU40878207</div>
-                <div><a href="../Pages/privacy.html">Privacy Policy</a></a></div>
+                <div><strong data-translate="footer-name">Dipl.-Ing. Dr. Gernot Mevec</strong></div>
+                <div data-translate="footer-title">Engineering Office for Material Science</div>
+                <div data-translate="footer-address">Mühlbergweg 6</div>
+                <div data-translate="footer-location">4360 Grein, Austria/Europe</div>
+                <div data-translate="footer-phone">Telefon: +43&nbsp;(660)&nbsp;48&nbsp;00&nbsp;433</div>
+                <div>
+                    <span data-translate="footer-email-label">E-Mail:</span> 
+                    <a href="mailto:contact@mevec.net" data-translate="footer-email">contact@mevec.net</a>
+                </div>
+                <div data-translate="footer-gisa">GISA-Nr: 32433289</div>
+                <div data-translate="footer-vat">VAT Nr.: ATU40878207</div>
+                <div>
+                    <a href="../Pages/privacy.html" data-translate="footer-privacy">Privacy Policy</a>
+                </div>
             </div>
         </div>
     </footer>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </html>

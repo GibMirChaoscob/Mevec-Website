@@ -96,7 +96,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 "privacy-contact-text": "If you have any questions or concerns about data protection, you can contact us at any time:",
                 "privacy-contact-details": "DR GERNOT MEVEC CONSULTING Mühlbergweg 6 4360 Grein Austria E-Mail: contact@mevec.net Phone: +43 (660) 48 00 433",
                 "contact-headline": "Contact",
-                "contact-text": "Are you looking for an experienced expert in material development and innovative solutions? Contact Dipl.-Ing. Dr. Gernot Mevec and benefit from his extensive knowledge and international experience."
+                "contact-text": "Are you looking for an experienced expert in material development and innovative solutions? Contact Dipl.-Ing. Dr. Gernot Mevec and benefit from his extensive knowledge and international experience.",
+                "experience-title": "35 Years of Industry Experience",
+                "experience-text": "Dr. Mevec has had an impressive career in the industry, leading him through various positions and projects worldwide. His expertise in material and materials development has significantly contributed to innovation in numerous industries.",
+                "teaching-title": "20 Years of Teaching Experience",
+                "teaching-text": "In addition to his practical work in the industry, Dr. Mevec has taught at universities and technical colleges for over two decades. His experience as a lecturer extends to training future engineers and technicians, thereby not only passing on knowledge but also contributing to the development of the technical field.",
+                "research-title": "Research, Material Development, and Customer Support Worldwide",
+                "research-text": "Dr. Mevec's work is marked by his international orientation. He has led research projects and provided support on four continents, developed new materials, and assisted clients in a wide variety of industries. His global network and interdisciplinary projects make him a top-level expert.",
+                "founding-title": "Founding of Engineering Firm",
+                "founding-text": "In 2020, Dr. Mevec founded his own engineering firm, with the goal of advising companies and organizations in the fields of research, development, and application of materials. His extensive experience and ability to find innovative solutions make him a sought-after consultant and partner for companies around the world."
+        
             },
             "de": {
                 "nav-home": "Startseite",
@@ -195,6 +204,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 "privacy-contact-details": "DR GERNOT MEVEC CONSULTING<br>Mühlbergweg 6<br>4360 Grein Österreich<br>E-Mail: contact@mevec.net<br>Telefon: +43 (660) 48 00 433",
                 "contact-text":"Suchen Sie einen erfahrenen Experten für Materialentwicklung und innovative Lösungen? Kontaktieren Sie Dipl.-Ing. Dr. Gernot Mevec und profitieren Sie von seinem umfangreichen Wissen und internationalen Erfahrungen.",
                 "contact-headline": "Kontakt",
+                "experience-title": "35 Jahre Branchenerfahrung",
+                "experience-text": "Dr. Mevec kann auf eine beeindruckende Karriere in der Industrie zurückblicken, die ihn durch verschiedene Positionen und Projekte weltweit führte. Seine Expertise im Bereich Material und Materialentwicklung hat maßgeblich zur Innovation in zahlreichen Industrien beigetragen.",
+                "teaching-title": "20 Jahre Lehrerfahrung",
+                "teaching-text": "Neben seiner praktischen Arbeit in der Industrie hat Dr. Mevec über zwei Jahrzehnte an Universitäten und Fachhochschulen gelehrt. Seine Erfahrung als Dozent erstreckt sich auf die Ausbildung zukünftiger Ingenieure und Techniker und trägt damit nicht nur zur Weitergabe von Wissen, sondern auch zur Entwicklung des technischen Bereichs bei.",
+                "research-title": "Forschung, Materialentwicklung und Kundenbetreuung weltweit",
+                "research-text": "Die Arbeit von Dr. Mevec zeichnet sich durch seine internationale Ausrichtung aus. Er hat Forschungsprojekte geleitet und Unterstützung auf vier Kontinenten geleistet, neue Materialien entwickelt und Kunden in einer Vielzahl von Branchen unterstützt. Sein globales Netzwerk und seine interdisziplinären Projekte machen ihn zu einem Experten auf höchstem Niveau.",
+                "founding-title": "Gründung eines Ingenieurbüros",
+                "founding-text": "Im Jahr 2020 gründete Dr. Mevec sein eigenes Ingenieurbüro mit dem Ziel, Unternehmen und Organisationen in den Bereichen Forschung, Entwicklung und Anwendung von Materialien zu beraten. Seine umfangreiche Erfahrung und Fähigkeit, innovative Lösungen zu finden, machen ihn zu einem gefragten Berater und Partner für Unternehmen auf der ganzen Welt.",
             }
     };
     const setLanguage = (language) => {
