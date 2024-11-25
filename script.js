@@ -219,25 +219,23 @@ document.addEventListener("DOMContentLoaded", () => {
         elementsToTranslate.forEach(el => {
             const key = el.getAttribute("data-translate");
             if (langData[language][key]) {
-                el.textContent = langData[language][key];
+                el.innerHTML = langData[language][key];
             }
         });
     };
 
-    let currentLanguage = localStorage.getItem("lang") || "en"; 
-    setLanguage(currentLanguage);
+    const savedLanguage = localStorage.getItem("lang") || "en";
+    setLanguage(savedLanguage);
 
     document.querySelector("a[href='?lang=en']").addEventListener("click", (e) => {
         e.preventDefault();
+        localStorage.setItem("lang", "en");
         setLanguage("en");
-        localStorage.setItem("lang", "en"); 
-        history.replaceState(null, null, "?lang=en"); 
     });
 
     document.querySelector("a[href='?lang=de']").addEventListener("click", (e) => {
         e.preventDefault();
-        setLanguage("de");
         localStorage.setItem("lang", "de");
-        history.replaceState(null, null, "?lang=de");
+        setLanguage("de");
     });
 });
