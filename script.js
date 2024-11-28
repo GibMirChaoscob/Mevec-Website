@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const langData = {
-            "en": {
+            "en": 
+            {
                 "nav-home": "Home",
                 "nav-about": "About Me",
                 "nav-offers": "Our Offers",
@@ -138,8 +139,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 "faq-15-text": "Europe houses quite a number of well-established OEMs for almost any industry and application. Dr. Mevec and his team can guide you to find the right OEM for your application.",
                 "faq-16": "What if Dr. Mevec's team cannot provide the needed service?",
                 "faq-16-text": "If the team of Dr. Mevec cannot provide whatever you may need, we gladly refer you to other industrial experts within our network.",
+                "created-head":"This Website was created by:",
+                "created-text":"This website was created by Jakob Hintseiner and Daniel Macek as part of an Information Technology Project (ITP) at HTL Waidhofen an der Ybbs during the 2024/25 academic year. This project was a valuable opportunity for us to take the theoretical knowledge gained throughout our studies and apply it in a practical, real-world context. Our goal was to create a functional, user-friendly, and innovation. It would not have been possible without the support of those who believed in our vision and provided us with the opportunities to grow and succeed."
             },
-            "de": {
+            "de": 
+            {
                 "nav-home": "Startseite",
                 "nav-about": "Über mich",
                 "nav-offers": "Angebote",
@@ -277,7 +281,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 "faq-15-text": "Europa beherbergt eine Vielzahl gut etablierter OEMs für fast jede Branche und Anwendung. Dr. Mevec und sein Team können Sie bei der Auswahl des richtigen OEM für Ihre Anwendung unterstützen.",
                 "faq-16": "Was passiert, wenn das Team von Dr. Mevec den benötigten Service nicht anbieten kann?",
                 "faq-16-text": "Wenn das Team von Dr. Mevec den benötigten Service nicht anbieten kann, verweisen wir Sie gerne an andere Industrieexperten in unserem Netzwerk.",
-}
+                "created-head":"Diese Website wurde erstellt von:",
+                "created-text": "Diese Website wurde von Jakob Hintseiner und Daniel Macek im Rahmen eines Informationstechnologie-Projekts (ITP) an der HTL Waidhofen an der Ybbs im Schuljahr 2024/25 erstellt. Dieses Projekt bot uns eine wertvolle Gelegenheit, das theoretische Wissen, das wir während unserer Ausbildung erworben haben, in einem praktischen, realen Kontext anzuwenden. Unser Ziel war es, eine funktionale, benutzerfreundliche und innovative Lösung zu schaffen. Dies wäre nicht ohne die Unterstützung derjenigen möglich gewesen, die an unsere Vision geglaubt und uns die Möglichkeit gegeben haben, zu wachsen und erfolgreich zu sein."
+            }
     };
     const setLanguage = (language) => {
         const elementsToTranslate = document.querySelectorAll("[data-translate]");
