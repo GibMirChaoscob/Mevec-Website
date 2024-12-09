@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "footer-gisa": "GISA-Nr: 32433289",
                 "footer-vat": "UID Nr: ATU40878207",
                 "footer-privacy": "Datenschutzrichtlinie",
-                "footer-Created": "Erstellt von",
+                "footer-Created": "Created by",
                 "rec-consultation-title": "Beratung und Unterstützung bei der Materialentwicklung und Schadensfällen",
                 "rec-consultation-text": "Wir bieten fachkundige Beratung in der Materialentwicklung und Schadensanalyse, maßgeschneidert, um die optimale Leistung und Lebensdauer Ihrer Produkte sicherzustellen. Unser erfahrenes Team prüft gründlich Ihre Materialbedürfnisse, identifiziert geeignete Materialien und bietet detaillierte Einblicke, die Ihnen helfen, fundierte Entscheidungen zu treffen. Wir sind auf die Fehlerbehebung bei materialbezogenen Problemen, die Schadensanalyse und die Bereitstellung umsetzbarer Lösungen spezialisiert, die darauf ausgelegt sind, Ausfallzeiten zu minimieren, Wartungskosten zu senken und die Gesamtlebensdauer des Produkts zu verbessern. Mit einer Partnerschaft mit uns erhalten Sie Zugang zu modernstem Fachwissen und einem Engagement für Materialexzellenz, das Zuverlässigkeit, Effizienz und langfristigen Erfolg fördert. Lassen Sie uns Ihnen helfen, überlegene Leistung und Produktlebensdauer mit unseren spezialisierten Dienstleistungen zu erreichen.",
                 "rec-research-title": "Forschungs- und Innovationsprojekte für Unternehmen",
