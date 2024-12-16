@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "nav-offers": "Our Offers",
                 "nav-recommendation": "Recommendation",
                 "nav-contact": "Contact",
+                "nav-gallery": "Gallery",
                 "about-experience-text": "With over 35 years of experience in the industry, Dipl.-Ing. Dr. Gernot Mevec is a renowned engineer and scientist specializing in the development and application of high-performance materials.",
                 "about-experience-text-btn":"Contact Us for More Info",
                 "footer-name": "Dipl.-Ing. Dr. Gernot Mevec",
