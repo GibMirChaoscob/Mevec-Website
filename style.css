@@ -338,13 +338,29 @@ footer a:hover {
 }
 
 .gal-image{
-    width: 30%; 
     border-radius: 10px; 
-    margin-left: 1.5%; 
-    margin-right: 1.5%;
+    margin-left: 3%; 
     transition: transform 0.3s ease-in-out;
+    margin-top: 20px;
+    text-align: center;
+    width: 30%;
 }
 
 .gal-image:hover {
     transform: scale(1.03);
   }
+
+.gal-container{
+    width: 100%;
+    padding-right: 3%;
+}
+
+@media screen and (max-width: 767px) {
+    .gal-image{
+        width: 93%;
+        margin-left: 3.5%;
+    }
+    .gal-container{
+        padding-right: 0;
+    }
+}
