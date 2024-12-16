@@ -150,6 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "nav-offers": "Angebote",
                 "nav-recommendation": "Empfehlung",
                 "nav-contact": "Kontakt",
+                "nav-gallery": "Galerie",
                 "about-experience-text": "Mit über 35 Jahren Erfahrung in der Industrie ist Dipl.-Ing. Dr. Gernot Mevec ein renommierter Ingenieur und Wissenschaftler, der sich auf die Entwicklung und Anwendung von Hochleistungsmaterialien spezialisiert hat.",
                 "about-experience-text-btn":"Kontaktieren Sie uns für weitere Informationen.",
                 "footer-name": "Dipl.-Ing. Dr. Gernot Mevec",
