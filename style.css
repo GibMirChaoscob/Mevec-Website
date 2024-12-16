@@ -279,7 +279,7 @@ footer a:hover {
     padding: 20px 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 835px) {
     .rec-container {
         flex-direction: column;
         align-items: center;
@@ -310,7 +310,7 @@ footer a:hover {
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 835px) {
 
     .navbar-nav {
         text-align: center;
@@ -355,7 +355,7 @@ footer a:hover {
     padding-right: 3%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 835px) {  
     .gal-image{
         width: 93%;
         margin-left: 3.5%;
