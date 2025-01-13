@@ -13,6 +13,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../Favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../Favicons/favicon-16x16.png">
     <link rel="manifest" href="../Favicons/site.webmanifest">
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
@@ -49,7 +50,8 @@
         <h1></h1>
         <h1></h1>
         
-        <form action="https://getform.io/f/alllezza" method="POST" class="contact-form bg-light">            
+        <form action="https://getform.io/f/bjjjgvkb" method="POST" class="contact-form bg-light" id="contactForm">            
+            <input type="hidden" name="_gotcha" style="display:none !important"> 
             <div class="mb-3">
                 <label for="name" class="form-label" data-translate="contact-name-label">Name</label>
                 <input type="text" class="form-control" id="name" name="name" required>
@@ -71,13 +73,10 @@
                 <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
             </div>     
             <div class="h-captcha" data-sitekey="7af88976-0940-4012-b128-04c02098e2c0"></div>
+            
+            <input type="hidden" id="h-captcha-response" name="h-captcha-response" required>
+            
             <button type="submit" class="custom-btn" data-translate="contact-send-button">Send</button>
-            <section id="about-experience" class="text-center my-0">
-                <span data-translate="contact-privacy">
-                    Privacy: Your information will only be used to respond to this request. We will never use this data for any other purposes. For more information, please see our 
-                </span>
-                <a id="Privacy" href="privacy.html" target="_blank" data-translate="contact-privacy-policy">Privacy Policy</a>.
-            </section>
         </form>
     </div>
 
